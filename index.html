@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syntax Squad</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left-sidebar" id="leftSlideBar">
+        <div class="historybar">
+            <h3>History</h3>
+        </div>
+        <div class="historybar">
+            <h3>History</h3>
+        </div>            <div class="historybar">
+            <h3>History</h3>
+        </div>            <div class="historybar">
+            <h3>History</h3>
+        </div>            <div class="historybar">
+            <h3>History</h3>
+        </div>            <div class="historybar">
+            <h3>History</h3>
+        </div>
+    </div>
+
+    <div class="right-sidebar" id="rightSlideBar">
+        <div class="right-flex">
+            <div>
+                <h1>JERRY INFANT</h1>
+                <h2>Kudu Kudu Samiyar</h2>
+            </div>
+                <div class="userdata">
+                    <div class="data">
+                        <h2>user data</h2>
+                    </div>
+                    <div class="data">
+                        <h2>user data</h2>
+                    </div>
+                    <div class="data">
+                        <h2>user data</h2>
+                    </div>
+                </div>
+                <div class="logout-div">
+                    <span><img src="/src/logoutIcon.svg" alt=""></span>
+                    <h1>Logout</h1>
+                </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <nav class="nav">
+            <div class="leftnav">
+                <div class="sidebarIcon" onmouseover="showSidebar()" onmouseout="hideSidebar()">
+                    <img src="/src/sidebaricon.svg" alt="" class="nav-item sidebarIcon">
+                </div>
+                <img src="/src/newchat.svg" alt="" class="nav-item">
+            </div>
+            <div class="text">
+                <h2 class="nav-item nav-title">We are <span class="auto-type"></span></h2>
+            </div>
+            <div class="rightnav">
+                <a href="/login-module/login.html">
+                    <input type="button" value="Signup/login" class="nav-item nav-button">
+                </a>
+                <div class="sidebarIcon" onmouseover="showRightSidebar()" onmouseout="hideRightSidebar()">
+                    <img src="/src/user.svg" alt="" class="nav-item">
+                </div>
+                
+            </div>
+        </nav>
+
+        <div class="input-cont">
+            <div class="input-items">
+                <img src="/src/attachment.svg" alt="" class="attachment-icon">
+            </div>
+            <div class="input-items">
+                <input type="text" placeholder="enter the querry" class="input-box">
+            </div>
+            <div class="input-items">
+                <img src="/src/enter.svg" alt="" class="enter-icon">
+            </div>
+        </div>
+
+        <div class="result-container container">
+
+        </div>
+
+        
+       
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings : [" Syntax Squad", " Keren", " Jerry", " Jai", " Roshni", "Syntax Squad"],
+            typeSpeed : 150,
+            backSpeed : 150,
+            looped : true
+          
+          })
+    </script>
+
+
+
+    <!-- bootstrap stylings -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+</body>
+</html>

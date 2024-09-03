@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup Page</title>
+    <link rel="stylesheet" href="login_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="shortcut icon" href="/src/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="sign">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>Or register with your email address</p>
+                <input type="text" name="text" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="pass" placeholder="Password" required>
+                <button class="btn-sign">Sign Up</button>
+            </form>
+        </div>
+        <div class="log">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="social-container">
+                    <a href="#" class="face"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>or use your login account</p>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="pass" placeholder="Password" required>
+                <a href="#">Forget Password ?</a><a href="#" id="create">Create a new account</a>
+                <button>Log In</button>
+            </form>
+        </div>
+        <div class="over-cont">
+            <div class="overlay">
+                <div class="overlay-left">
+                    <h1>Glad to see you again!</h1>
+                    <p>To stay connected with us, please sign in using your personal information.</p>
+                    <button id="login">Log In</button>
+                </div>
+                <div class="overlay-right">
+                    <h1>Greetings, friend!</h1>
+                    <p>Enter your personal details and begin your journey with us.</p>
+                    <button id="signup">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login_script.js"></script>
+</body>
+</html>
